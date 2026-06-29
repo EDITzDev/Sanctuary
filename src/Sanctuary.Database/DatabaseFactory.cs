@@ -8,7 +8,7 @@ using Sanctuary.Core.Configuration;
 
 namespace Sanctuary.Database;
 
-internal class DatabaseFactory : IDesignTimeDbContextFactory<DatabaseContext>
+public class DatabaseFactory : IDesignTimeDbContextFactory<DatabaseContext>
 {
     public DatabaseContext CreateDbContext(string[] args)
     {
