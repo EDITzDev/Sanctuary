@@ -16,7 +16,7 @@ public class MySqlTest
         var databaseOptions = new DatabaseOptions
         {
             Provider = DatabaseProvider.MySql,
-            ConnectionString = "server=localhost;uid=user;pwd=password;database=sanctuary_test",
+            ConnectionString = "server=127.0.0.1;port=3306;uid=user;pwd=password;database=sanctuary_test",
             VersionString = "11.6.0-MariaDB"
         };
 
